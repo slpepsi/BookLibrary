@@ -14,9 +14,9 @@ daemon = 'false'
 # 设置最大并发量
 worker_connections = 2000
 # 设置进程文件目录
-pidfile = '/Users/wulian/Documents/wlcode/tmp/gunicorn.pid'
+pidfile = '/opt/log/applications/booklibrary/gunicorn_booklibrary.pid'
 # 设置访问日志和错误信息日志路径
-accesslog = '/Users/wulian/Documents/wlcode/tmp/gunicorn_acess.log'
-errorlog = '/Users/wulian/Documents/wlcode/tmp/gunicorn_error.log'
+accesslog = '/opt/log/applications/booklibrary/gunicorn_booklibrary.log'
+errorlog = '/opt/log/applications/booklibrary/gunicorn_booklibrary.log'
 # 设置日志记录水平
 loglevel = 'debug'
